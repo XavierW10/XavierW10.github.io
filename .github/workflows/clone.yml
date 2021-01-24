@@ -26,4 +26,4 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: ${{secrets.PORT}}
           script: |
-            git clone 
+            git clone https://github.com/XavierW10/XavierW10.github.io.git
