@@ -22,10 +22,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
         uses: appleboy/ssh-action@master
         with:
-          host: ${{secrets:HOST}}
-          username: ${{secrets:USERNAME}}
-          password: ${{secrets:PASSWORD}}
-          port: ${{secrets:PORT}}
+          host: ${{secrets.HOST}}
+          username: ${{secrets.USERNAME}}
+          password: ${{secrets.PASSWORD}}
+          port: ${{secrets.PORT}}
           script: |
             cd TestRepo
             git pull
