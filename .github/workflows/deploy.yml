@@ -27,4 +27,5 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: ${{secrets.PORT}}
           script: |
+            cd XavierW10.github.io
             git pull
