@@ -2,4 +2,4 @@
 
 Part1:
 
-After my the standard additions I made to my website, I added my linkedIn profile url to the bottom of the page (next to my github profile).
+After my the standard additions I made to my website, I added my linkedIn profile url to the bottom of the page (next to my github profile). I also made the About Me header red and in italics.
